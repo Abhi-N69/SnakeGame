@@ -4,6 +4,10 @@ A classic Snake game built with **Python and Pygame**, featuring screen wraparou
 
 Control the snake, collect food, increase your score, and try to beat your personal best!
 
+## Preview
+![slop](ss1.png)
+
+
 ## Features
 
 - **Classic Snake Gameplay** — Control the snake and collect food to increase your score.
