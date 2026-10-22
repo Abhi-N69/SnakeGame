@@ -13,9 +13,6 @@ Control the snake, collect food, increase your score, and try to beat your perso
 - **Persistent Leaderboard** — Scores are stored in an SQLite database and remain available between sessions.
 - **Restart Support** — Start a new game without restarting the application.
 
-## Preview
-
-
 ##  Built With
 
 | Technology | Purpose |
