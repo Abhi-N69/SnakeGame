@@ -97,18 +97,6 @@ The game uses SQLite to save player scores locally.
 
 The database is automatically created when the game starts. You do not need to configure it manually.
 
-## 📁 Project Structure
-
-```text
-snake-game/
-├── main.py          # Game logic and entry point
-├── snake_game.db    # SQLite database (created automatically)
-├── README.md         # Project documentation
-└── .gitignore       # Files excluded from Git
-```
-
-The database file is generated when you run the game for the first time. It does not need to be committed to GitHub.
-
 ## 🧠 What I Learned
 
 This project explores practical Python programming concepts, including:
@@ -132,11 +120,7 @@ Ideas for future development:
 - Sound effects and background music
 - A graphical player-name input screen
 - Improved game-over and menu screens
-- Unit tests for movement, collision, and database logic
-
-## 📜 License
-
-This project is open source. You may use, modify, and distribute it under the terms of the [MIT License](LICENSE), provided you add an MIT `LICENSE` file to the repository.
+- Unit tests for movement, collision, and database logic.
 
 ---
 
