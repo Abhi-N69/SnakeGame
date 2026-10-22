@@ -1,10 +1,10 @@
-# 🐍 Snake Game
+# Snake Game
 
 A classic Snake game built with **Python and Pygame**, featuring screen wraparound, food collection, score tracking, and a persistent SQLite leaderboard.
 
 Control the snake, collect food, increase your score, and try to beat your personal best!
 
-## 🎮 Features
+## Features
 
 - **Classic Snake Gameplay** — Control the snake and collect food to increase your score.
 - **Wall Wraparound** — Pass through any screen boundary and reappear on the opposite side.
@@ -13,10 +13,10 @@ Control the snake, collect food, increase your score, and try to beat your perso
 - **Persistent Leaderboard** — Scores are stored in an SQLite database and remain available between sessions.
 - **Restart Support** — Start a new game without restarting the application.
 
-## 🖥️ Preview
+## Preview
 
 
-## 🛠️ Built With
+##  Built With
 
 | Technology | Purpose |
 |---|---|
@@ -24,42 +24,15 @@ Control the snake, collect food, increase your score, and try to beat your perso
 | Pygame | Game window, graphics, keyboard input, and game loop |
 | SQLite | Persistent score storage |
 
-## 📋 Requirements
+## Requirements
 
 - Python 3
 - Pygame
 
 SQLite is included with Python through the `sqlite3` module, so no separate database installation is required.
 
-## 🚀 Getting Started
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/snake-game.git
-cd snake-game
-```
-
-Replace `YOUR_USERNAME` with your GitHub username.
-
-### 2. Install Pygame
-
-Using pip:
-
-```bash
-python -m pip install pygame
-```
-
-
-### 3. Run the game
-
-```bash
-python main.py
-```
-
-Enter your player name when prompted, then start playing.
-
-## 🕹️ Controls
+## Controls
 
 | Key | Action |
 |---|---|
@@ -71,17 +44,17 @@ Enter your player name when prompted, then start playing.
 | `L` | View the leaderboard |
 | `Q` | Quit from the game-over or leaderboard screen |
 
-## 🧩 How to Play
+## How to Play
 
 1. Control the snake using the arrow keys.
 2. Eat the red food to earn **10 points**.
 3. Each time you collect food, the snake grows.
-4. The snake moves faster as your score increases.
+4. Te snake moves faster as your score increases.
 5. Avoid running into your own body.
 6. Use the screen boundaries to wrap around to the opposite side.
 7. Try to achieve the highest score possible!
 
-## 💾 Leaderboard
+## Leaderboard
 
 The game uses SQLite to save player scores locally.
 
@@ -91,32 +64,5 @@ The game uses SQLite to save player scores locally.
 - Leaderboard: Displays the top five scores in descending order
 
 The database is automatically created when the game starts. You do not need to configure it manually.
-
-## 🧠 What I Learned
-
-This project explores practical Python programming concepts, including:
-
-- Game loops and event handling with Pygame
-- 2D grid-based movement and coordinate calculations
-- Collision detection and boundary wraparound
-- Functions and state management
-- Random food generation
-- SQLite database operations
-- Persistent data storage
-- Keyboard input and real-time graphics
-
-## 🔮 Possible Improvements
-
-Ideas for future development:
-
-- Pause and resume functionality
-- Difficulty selection
-- High-score highlighting
-- Sound effects and background music
-- A graphical player-name input screen
-- Improved game-over and menu screens
-- Unit tests for movement, collision, and database logic.
-
----
 
 **Built with Python and Pygame.**
