@@ -50,11 +50,6 @@ Using pip:
 python -m pip install pygame
 ```
 
-On NixOS, you can run the game with a temporary environment:
-
-```bash
-nix-shell -p python3 python3Packages.pygame --run "python main.py"
-```
 
 ### 3. Run the game
 
